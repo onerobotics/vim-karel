@@ -64,7 +64,7 @@ hi def link karelFunction    Function
 syn keyword karelClause      EVAL FROM IN WHEN WITH
 hi def link karelClause      Keyword
 
-syn keyword karelConditional IF THEN ELSE ENDIF SELECT ENDSELECT
+syn keyword karelConditional IF THEN ELSE ENDIF SELECT ENDSELECT CASE
 hi def link karelConditional Conditional
 
 syn keyword karelRepeat      WHILE DO ENDWHILE FOR
@@ -105,7 +105,7 @@ syn match   karelStatement   /RELAX HAND/
 syn match   karelStatement   /WAIT FOR/
 hi def link karelStatement   Statement
 
-syn keyword karelKeyword     BEGIN CONST END PROGRAM ROUTINE STRUCT TYPE VAR
+syn keyword karelKeyword     BEGIN CONST END PROGRAM ROUTINE STRUCT TYPE VAR OF TO DOWNTO
 hi def link karelKeyword     Keyword
 
 " Comments
